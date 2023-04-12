@@ -14,7 +14,7 @@ También tenemos un ejemplo de lo que seria un login con formulario reactivo
 
   
 
-## ejecutar: 
+## Ejecutar: 
  
  Para poner en marcha la app hace falta levantar un JsonServer con un archivo db.json
 - install  : npm install -g json-server
