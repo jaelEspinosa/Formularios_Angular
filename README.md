@@ -3,10 +3,10 @@
 Este proyecto está creado con  [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0. como documentación
 de como implementar los siguientes ejemplos.
 
-## Descripcion:
+## Descripción:
 
 En este ejercicio desarrollamos una app con Lazy-Load en la cual tenemos ejemplos de formularios por Template y Reactivos.
-Tambien tenemos un ejemplo de lo que seria un login con formulario reactivo
+También tenemos un ejemplo de lo que seria un login con formulario reactivo
 
 - Validaciones predeterminadas con Validators
 - Validaciones personalizadas 
