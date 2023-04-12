@@ -1,0 +1,59 @@
+<h2
+    (click)="toggle1()"
+    class="pointer"
+
+>Template</h2>
+
+<hr>
+<div [class]="(plegado1) ? 'desplegada' : 'plegada'">
+  <ul class="list-group">
+
+    <li *ngFor="let item of menuTemplate"
+        class="list-group-item pointer"
+        [routerLink]="item.ruta"
+        routerLinkActive="active"
+        >
+      {{item.texto}}
+
+  </ul>
+</div>
+
+<h2
+    class="mt-2 pointer"
+    (click)="toggle2()"
+    >Reactive</h2>
+
+    <hr>
+<div [class]="(plegado2) ? 'desplegada' : 'plegada'">
+  <ul class="list-group">
+
+    <li *ngFor="let item of menuReactive"
+        class="list-group-item pointer"
+        [routerLink]="item.ruta"
+        routerLinkActive="active"
+        >
+      {{item.texto}}
+
+  </ul>
+</div>
+
+<h2
+    (click)="toggle3()"
+    class="pointer mt-2"
+
+>Validaciones</h2>
+
+<hr>
+<div [class]="(plegado3) ? 'desplegada' : 'plegada'">
+  <ul class="list-group">
+
+    <li *ngFor="let item of menuAuth"
+        class="list-group-item pointer"
+        [routerLink]="item.ruta"
+        routerLinkActive="active"
+        >
+      {{item.texto | titlecase}}
+
+  </ul>
+</div>
+
